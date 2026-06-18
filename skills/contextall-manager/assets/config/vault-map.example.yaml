@@ -2,12 +2,15 @@ vault_root: /absolute/path/to/vault
 
 config:
   profile: _context/profile.md
-  design: _context/design.md
+  design: _context/design-profile.md
 
 context:
   root: context
   inbox: context/00-inbox
+  source_index: context/_source-index.md
   entity_index: context/_entity-index.md
+  topic_index: context/_topic-index.md
+  timeline: context/_timeline.md
   total_index: context/_index.md
   domains:
     identity: context/01-identity

@@ -1,5 +1,7 @@
 # Privacy model
 
+[Documentation index](README.md) · [Architecture](ARCHITECTURE.md)
+
 ## Default posture
 
 Personal Context is private by default. The public framework and private vault must remain separate directories or repositories.

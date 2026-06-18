@@ -1,37 +1,49 @@
 ---
 document_type: context_note
+source_id:
 source_type:
-date:
+source_ref:
+captured_at:
+language:
 people: []
-primary_section:
+primary_domain:
 status: inbox
 entities: []
 topics: []
 privacy: private
-derived_from: []
 routes: []
-topic_index: []
+topic_index:
+  - topic:
+    entity:
+    speaker:
+    section:
+    keywords: []
+    source_fragments: []
 ---
 
 # YYYYMM_source_concrete-topic
 
 ## Topic navigation
 
-- Concrete topic
+- Concrete object plus judgment, action, tension, or plan
 
-## Organization note
+## Source and organization note
 
-Only structure and obvious transcription errors were adjusted. Original wording and meaning are preserved.
+- Source:
+- Capture date:
+- Organization: only structure and obvious transcription errors were adjusted. Original wording, uncertainty, and meaning are preserved.
 
-## Organized source text
+## Source Context
 
 ### Concrete topic
+
+<a id="frag-001"></a>
 
 [Original text]
 
 ## Derived Context
 
-> The following is not original wording. It contains questions, links, or possible routes derived from the source.
+> The following is not original wording. It contains questions, links, hypotheses, or possible routes derived from the source.
 
 ### Questions to continue
 
@@ -42,5 +54,9 @@ Only structure and obvious transcription errors were adjusted. Original wording 
 -
 
 ### Possible routes
+
+-
+
+## Routes
 
 -

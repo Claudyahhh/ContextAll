@@ -1,48 +1,70 @@
 ---
 document_type: context_conversation
+source_id:
 source_type: conversation
-date:
+source_ref:
+captured_at:
+language:
 people: []
-primary_section:
+primary_domain:
 status: organized
 entities: []
 topics: []
 privacy: private
+routes: []
 topic_index:
-  - entity:
+  - topic:
+    entity:
     speaker:
     section:
     keywords: []
+    source_fragments: []
 ---
 
-# YYYYMM_conversation_person_concrete-theme
+# YYYYMM_conversation-person_concrete-theme
 
 ## Topic navigation
 
 ### User
 
-- Concrete object plus judgment or action
+- Concrete object plus judgment, action, tension, or plan
 
 ### Other speaker
 
-- Concrete object plus judgment or action
+- Concrete object plus judgment, action, tension, or plan
 
-## Organization note
+## Source and organization note
 
-Speakers were separated first, then each speaker's remarks were regrouped by topic. Filler and transcription noise were removed without polishing the views.
+- Source:
+- Capture date:
+- Organization: speakers were separated first, then each speaker's scattered remarks were regrouped by topic. Filler and transcription noise were removed without polishing the views. Fragment IDs preserve traceability when turns moved.
 
-## User's expression
+## Source Context
 
-### Concrete topic
+### User
+
+#### Concrete topic
+
+<a id="frag-001"></a>
 
 [Organized original expression]
 
-## Other speaker's expression
+### Other speaker
 
-### Concrete topic
+#### Concrete topic
+
+<a id="frag-002"></a>
 
 [Organized original expression]
 
 ## Derived Context
 
 > The following is not original wording.
+
+### Questions and connections
+
+-
+
+## Routes
+
+-

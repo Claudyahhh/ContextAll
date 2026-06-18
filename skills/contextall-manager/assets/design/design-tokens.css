@@ -1,24 +1,28 @@
+/*
+ * ContextAll role-based token template.
+ *
+ * Do not treat these neutral preview values as a user's design system.
+ * Replace them only after the user confirms design-profile.md.
+ */
+
 :root {
-  --heart-pink: #ffc9c9;
-  --heart-yellow: #fff1c7;
-  --heart-blue: #4a6fa5;
+  --user-color-primary: #f2f2f2;
+  --user-color-supporting: #fafafa;
+  --user-color-emphasis: #333333;
+  --user-color-canvas: #ffffff;
+  --user-color-text: #1f1f1f;
+  --user-color-border: #d9d9d9;
 
-  --color-canvas: color-mix(in srgb, var(--heart-yellow) 24%, white);
-  --color-surface: color-mix(in srgb, var(--heart-pink) 18%, white);
-  --color-accent-soft: color-mix(in srgb, var(--heart-pink) 58%, white);
-  --color-ink: #24324a;
-  --color-accent: var(--heart-blue);
-  --color-border: color-mix(in srgb, var(--heart-blue) 30%, transparent);
+  --user-radius-card: 0.75rem;
+  --user-radius-control: 0.5rem;
+  --user-space-1: 0.25rem;
+  --user-space-2: 0.5rem;
+  --user-space-3: 0.75rem;
+  --user-space-4: 1rem;
+  --user-space-6: 1.5rem;
+  --user-space-8: 2rem;
 
-  --radius-card: 18px;
-  --radius-control: 12px;
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-6: 1.5rem;
-  --space-8: 2rem;
+  --source-context-surface: var(--user-color-canvas);
+  --derived-context-surface: var(--user-color-supporting);
+  --private-context-accent: var(--user-color-emphasis);
 }
-
-/* Approximate visual balance: pink 50%, yellow 30%, blue 20%.
-   Blue is reserved for type, borders, controls, and key emphasis. */

@@ -2,20 +2,31 @@
 
 ## Layer model
 
-| Layer | Purpose | May AI rewrite it? |
+| Layer | Purpose | AI rewrite policy |
 |---|---|---|
-| Inbox | Untriaged captures | No |
-| Context | Canonical personal voice and lived evidence | No; structure-only edits |
-| Reference | External articles, products, trends, quotations | No; preserve attribution |
-| Index | Entities, aliases, topics, paths | Yes, mechanically |
-| Derivation | Questions, links, hypotheses, summaries | Yes, clearly labeled |
-| Destination | Content, product, business, investment outputs | Yes, by destination rules |
+| L0 Capture | raw, mixed, out-of-order fragments | no rewriting |
+| L1 Source records | organized personal expression and attributable references | structure-only edits |
+| L2 Indexes | source, entity, topic, time, aliases, paths | mechanical descriptions only |
+| L3 Derived Context | questions, links, hypotheses, summaries | allowed with explicit label |
+| L4 Destinations | content, products, projects, decisions | transform by destination rules |
 
-The most important boundary is Context versus Derivation. Context answers “what did the person actually say or experience?” Derivation answers “what might this mean or become?”
+Source Context answers “what was actually said, experienced, or observed?” Derived Context answers “what might this mean or become?” Never collapse the two.
+
+## Split mixed input
+
+Use reliable boundaries:
+
+- source change;
+- explicit delimiter;
+- different people or event;
+- clear topic discontinuity;
+- capture timestamp break.
+
+Do not assume items are related because they arrived in one paste. When boundary confidence is low, preserve the batch and add fragment IDs rather than inventing a split.
 
 ## Classify by meaning
 
-Recommended Context domains:
+Recommended semantic domains:
 
 1. Identity and values
 2. Experiences and stories
@@ -29,39 +40,44 @@ Recommended Context domains:
 10. Reviews and changes over time
 11. Cross-note derivations
 
-Use one primary domain per canonical note. Represent secondary themes with metadata and topic headings, not duplicate files.
+Choose one primary domain per canonical note. Represent secondary themes with metadata and topic headings, not duplicate source files.
 
 ## Append versus create
 
 Append when all are true:
 
-- the primary entity or recurring subject matches;
-- the material belongs to the same durable topic;
-- adding it preserves a coherent reading and retrieval unit.
+- primary entity or recurring subject matches;
+- durable topic matches;
+- source provenance remains clear;
+- the note stays a coherent retrieval unit.
 
 Create when any are true:
 
-- the primary entity differs;
-- the material records a distinct event or decision;
+- primary entity differs;
+- material records a distinct event or decision;
 - a different speaker relationship is central;
 - the note would become a miscellaneous bucket;
-- confidence is low.
+- relation confidence is low.
+
+Use inbox when source identity, privacy, or primary meaning cannot yet be determined safely.
 
 ## Conversations and interviews
 
-1. Identify speakers from explicit labels and contextual evidence.
-2. Separate all remarks by speaker.
-3. Regroup each speaker's remarks by concrete topic, even if those remarks were scattered in time.
-4. Preserve specific examples, numbers, personal phrasing, and disagreements.
-5. Remove only empty acknowledgements, filler, duplicated starts, and obvious transcription noise.
-6. Write topic labels using a concrete object plus action, judgment, conflict, or plan.
+1. Register the conversation as one source.
+2. Assign fragment IDs when turns will be moved.
+3. Identify speakers from explicit labels and contextual evidence.
+4. Separate remarks by speaker.
+5. Regroup each speaker's scattered remarks by concrete topic.
+6. Preserve examples, numbers, personal phrasing, emotion, and disagreement.
+7. Remove only empty acknowledgements, filler, duplicated starts, and obvious transcription noise.
+8. Use topic names containing a concrete object plus action, judgment, tension, or plan.
 
-Do not use vague headings such as “work,” “startup,” or “they discussed AI.”
+Avoid headings such as “work,” “startup,” or “they discussed AI.”
 
-## External reference and public-content routes
+## External references
 
-External material must retain source and date. It may receive a separate public-content reference layer if the profile defines audience, columns, voice references, and boundaries. Never treat that generated layer as the user's original view.
+Preserve source creator, title, date, link/file, quotation boundaries, and capture context. External statements are not the user's beliefs. Put the user's reaction in Source Context only if the user explicitly expressed it; otherwise place connections in Derived Context.
 
 ## Design preferences
 
-Treat durable visual preferences as configuration rather than scattered inspiration notes. Route color, typography, spacing, UI mood, accessibility, and brand rules into one design profile with a topic navigation and raw-record section.
+Route durable visual preferences into one private design profile. Ask users to define color roles, visual mood, typography, density, layer distinction, and accessibility. Never promote an example palette or one-off artifact into permanent user tokens without confirmation.

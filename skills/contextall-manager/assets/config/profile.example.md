@@ -25,3 +25,10 @@
 - Preserve spoken texture.
 - Fix only comprehension-blocking transcription errors.
 - Keep AI-generated extensions separate from original words.
+
+## Retrieval preference
+
+- Preferred entity naming language:
+- Useful topic vocabulary:
+- Sources that require exact fragment traceability:
+- When timeline entries should be created:
