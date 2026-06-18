@@ -1,0 +1,35 @@
+vault_root: /absolute/path/to/vault
+
+config:
+  profile: _context/profile.md
+  design: _context/design.md
+
+context:
+  root: context
+  inbox: context/00-inbox
+  entity_index: context/_entity-index.md
+  total_index: context/_index.md
+  domains:
+    identity: context/01-identity
+    stories: context/02-stories
+    learning_work: context/03-learning-work
+    choices: context/04-choices
+    product_business: context/05-product-business
+    ai_industry: context/06-ai-industry
+    money: context/07-money
+    relationships: context/08-relationships
+    life_body_emotion: context/09-life-body-emotion
+    reviews: context/10-reviews
+    derivations: context/11-derivations
+
+destinations:
+  references: references
+  content: content
+  projects: projects
+  investment: investment
+
+rules:
+  uncertain_destination: context/00-inbox
+  default_privacy: private
+  preserve_original: true
+  separate_ai_derivation: true

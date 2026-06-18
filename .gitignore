@@ -1,0 +1,11 @@
+.DS_Store
+*.zip
+.env
+.env.*
+.validation-shim/
+
+# Keep real personal configuration and vault data out of this public package.
+profile.md
+vault-map.yaml
+private-vault/
+fixtures/private/

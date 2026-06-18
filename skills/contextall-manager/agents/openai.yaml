@@ -1,0 +1,5 @@
+interface:
+  display_name: "ContextAll Manager"
+  short_description: "保真整理个人语料，建立实体索引并连接后续创作与项目管理"
+  brand_color: "#4A6FA5"
+  default_prompt: "Use $contextall-manager to organize this material into my personal context system."

@@ -1,0 +1,24 @@
+:root {
+  --heart-pink: #ffc9c9;
+  --heart-yellow: #fff1c7;
+  --heart-blue: #4a6fa5;
+
+  --color-canvas: color-mix(in srgb, var(--heart-yellow) 24%, white);
+  --color-surface: color-mix(in srgb, var(--heart-pink) 18%, white);
+  --color-accent-soft: color-mix(in srgb, var(--heart-pink) 58%, white);
+  --color-ink: #24324a;
+  --color-accent: var(--heart-blue);
+  --color-border: color-mix(in srgb, var(--heart-blue) 30%, transparent);
+
+  --radius-card: 18px;
+  --radius-control: 12px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+}
+
+/* Approximate visual balance: pink 50%, yellow 30%, blue 20%.
+   Blue is reserved for type, borders, controls, and key emphasis. */
